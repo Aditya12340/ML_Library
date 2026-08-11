@@ -233,4 +233,8 @@ This is an educational implementation rather than a production tensor library.
 
 Despite these limitations, the project demonstrates the complete training pipeline—from raw matrix operations and graph construction to automatic differentiation and MNIST evaluation—entirely in C.
 
+## Fun 
+
+I was playing around with GPT 5.6 Sol (Max) and asked it to optimize my code as much as possible for the same task. It spat out the file under ["funsies"](funsies/mnist_max_m4.c).
+
 
