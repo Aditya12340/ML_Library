@@ -1,5 +1,15 @@
 # Neural Network and Autodiff Engine in C
 
+## Project Motivation: 
+
+This was my first project in Machine Learning. MNIST is classically known as the "hello world" of ML and while the entire training process could have been done in ~20 lines of python code, I wanted to go deeper into the actual libraries themselves. This project is 999 lines of idiomatic C which implements basic matrix operations, softmax, ReLu, automatic differentiation (topological sort of a DAG using a stack). The entire project is done using the stdlib and math library in C. 
+
+## Credits
+- MNIST Dataset : https://www.tensorflow.org/datasets/catalog/mnist
+- MagicalBat : https://youtu.be/hL_n_GljC0I?si=xcQluF5ekjcmGEAT
+
+The MagicalBat's video was an awesome resource I used for learning. I implemented all the functions independetly first, but used his tutorial for guidance, error handling, idomatic C practices and learning in general. If you want to see the notes I took while coding this please check them out [here](src/notes.md) .
+
 A neural-network framework written from scratch in C and trained on MNIST without external machine-learning libraries.
 
 The project implements the core components normally handled by frameworks such as PyTorch:
@@ -14,7 +24,7 @@ The project implements the core components normally handled by frameworks such a
 - Arena-based memory management
 - MNIST training and evaluation
 
-The final model reaches **94.0% test accuracy** after 20 epochs.
+The final model reaches **94.0% test accuracy** after 20 epochs. 
 
 ## Model Architecture
 
@@ -244,3 +254,5 @@ This is an educational implementation rather than a production tensor library.
 - Model serialization and checkpointing are not implemented.
 
 Despite these limitations, the project demonstrates the complete training pipeline—from raw matrix operations and graph construction to automatic differentiation and MNIST evaluation—entirely in C.
+
+
