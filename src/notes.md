@@ -1,4 +1,5 @@
 ## Notes for the project
+# check out the [pdf version]()
 [X] math (Tensors (vectors/matrices)) 
 [X] find gradients of arbitrary functions 
 [] Glue 
