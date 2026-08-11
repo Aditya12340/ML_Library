@@ -195,32 +195,6 @@ After training:
 
 The trained network assigns approximately **99.923% probability** to class `2`.
 
-## Project Layout
-
-```text
-.
-├── main.c
-├── base.h
-├── arena.h
-├── arena.c
-├── prng.h
-├── prng.c
-├── train_images.mat
-├── train_labels.mat
-├── test_images.mat
-└── test_labels.mat
-```
-
-The `.mat` files are headerless binary arrays of 32-bit floating-point values.
-
-| File | Shape |
-| --- | ---: |
-| `train_images.mat` | `60000 x 784` |
-| `train_labels.mat` | `60000 x 1` |
-| `test_images.mat` | `10000 x 784` |
-| `test_labels.mat` | `10000 x 1` |
-
-Images should be normalized to `[0, 1]`. Labels are stored as floating-point class indices from `0` to `9` and converted to one-hot vectors by the program.
 
 ## Build and Run
 
