@@ -1,4 +1,5 @@
 ## Notes for the project
+### check out the [pdf version](notes.pdf). I originally took the notes here in .md but for the sake of cleaner reader exp, converted them as is into LaTeX
 [X] math (Tensors (vectors/matrices)) 
 [X] find gradients of arbitrary functions 
 [] Glue 
