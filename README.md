@@ -2,7 +2,7 @@
 
 ## Project Motivation: 
 
-This was my first project in Machine Learning. MNIST is classically known as the "hello world" of ML and while the entire training process could have been done in ~20 lines of python code, I wanted to go deeper into the actual libraries themselves. This project is 999 lines of idiomatic C which implements basic matrix operations, softmax, ReLu, automatic differentiation (topological sort of a DAG using a stack). The entire project is done using the stdlib and math library in C with all the memory allocation handled by a custom arena memory allocator. 
+This was my first project in Machine Learning. MNIST is classically known as the "hello world" of ML and while the entire training process could have been done in ~20 lines of python code, I wanted to go deeper into the actual libraries themselves. This project is 999 lines of idiomatic C which implements basic matrix operations, softmax, ReLu, automatic differentiation (topological sort of a DAG using a stack), feedforward NN, stochastic gradient descent. The entire project is done using the stdlib and math library in C with all the memory allocation handled by a custom arena memory allocator. 
 
 ## Credits
 - MNIST Dataset : https://www.tensorflow.org/datasets/catalog/mnist
