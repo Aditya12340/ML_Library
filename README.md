@@ -2,13 +2,15 @@
 
 ## Project Motivation: 
 
-This was my first project in Machine Learning. MNIST is classically known as the "hello world" of ML and while the entire training process could have been done in ~20 lines of python code, I wanted to go deeper into the actual libraries themselves. This project is 999 lines of idiomatic C which implements basic matrix operations, softmax, ReLu, automatic differentiation (topological sort of a DAG using a stack). The entire project is done using the stdlib and math library in C. 
+This was my first project in Machine Learning. MNIST is classically known as the "hello world" of ML and while the entire training process could have been done in ~20 lines of python code, I wanted to go deeper into the actual libraries themselves. This project is 999 lines of idiomatic C which implements basic matrix operations, softmax, ReLu, automatic differentiation (topological sort of a DAG using a stack). The entire project is done using the stdlib and math library in C with all the memory allocation handled by a custom arena memory allocator. 
 
 ## Credits
 - MNIST Dataset : https://www.tensorflow.org/datasets/catalog/mnist
 - MagicalBat : https://youtu.be/hL_n_GljC0I?si=xcQluF5ekjcmGEAT
 
-The MagicalBat's video was an awesome resource I used for learning. I implemented all the functions independetly first, but used his tutorial for guidance, error handling, idomatic C practices and learning in general. If you want to see the notes I took while coding this please check them out [here](src/notes.md) .
+The MagicalBat's video was an awesome resource I followed for learning. I implemented all the functions independetly first, but used his tutorial for guidance, error handling, idomatic C practices and learning in general. If you want to see the notes I took while coding this please check them out [here](src/notes.md) .
+
+***
 
 A neural-network framework written from scratch in C and trained on MNIST without external machine-learning libraries.
 
